@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  width: 1920px;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 20px 0;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+a {
+  color: #02171d;
+  margin-top: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+.link_to_view{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.b_page{
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  text-decoration: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.b{
+  border-radius: 10px;
+}
